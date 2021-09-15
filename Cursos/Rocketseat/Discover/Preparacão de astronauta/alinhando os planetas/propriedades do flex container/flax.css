@@ -1,0 +1,14 @@
+main section:nth-child(1) {
+  background: lightgoldenrodyellow;
+  flex: 0 0 50px;
+}
+
+main section:nth-child(2) {
+  background: lightsalmon;
+  flex: 0 120px;
+}
+
+main section:nth-child(3) {
+  background: lightpink;
+  flex: 1 0;
+}

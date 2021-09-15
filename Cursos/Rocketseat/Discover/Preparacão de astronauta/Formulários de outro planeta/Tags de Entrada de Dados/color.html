@@ -1,0 +1,19 @@
+<!--
+    <input type="color" />
+
+    - Interface para selecionar cor
+    - Corar picker
+
+    # Atributos
+    - Value: RGB
+       - Se inválido, o preto será exibido
+    - list
+    * O id de uma tag <datalist> que está no mesmo documento
+    * <datalist> irairá conter uma lista de valores pré definitivos a fim 
+      * os valores do <datalist> que não forem compatíveis com o cara
+          
+-->
+<datalist id="colorsdata">
+    <option>#0000ff</option>
+</datalist>
+<input type="color" list="colorsdata">

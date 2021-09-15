@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  border: 1px dashed red;
+
+  width: 150px;
+}
+.box div {
+  flex-basis: 80%;
+  border: 1px solid;
+}
+
+.box div:nth-child(2),
+.box div:nth-child(3) {
+  flex-shrink: 0.2;
+}
