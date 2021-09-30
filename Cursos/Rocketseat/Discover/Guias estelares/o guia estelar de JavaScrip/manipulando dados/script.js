@@ -1,11 +1,19 @@
-// Estrutura de repetição
-// for
-// break - para a execulção do loop
-// continue - pula a execulção do momento
+/* ### Celsius em fahrenheit 
+crie uma função que receba uma string em Ccelsius ou 
+fahrenheit e faça a tranformação  de uma unidade para outra
 
-for (let i = 0; i < 10; i++) {
-  if (i === 5) {
-    continue;
+c = (f - 32) * 5/9
+
+F = * 9/5 + 32
+
+*/
+
+// tranform('50F')
+function tranformDegree(degree) {
+  const celsiusEcxists = degree.toUpperCase().includes('C');
+  const fahrenheit = degree.toUpperCase().includes('F');
+
+  if(!celsiusEcxists && !fahrenheitExists) {
+    
   }
-  console.log(i);
 }
