@@ -13,7 +13,6 @@ function tranformDegree(degree) {
   const celsiusEcxists = degree.toUpperCase().includes('C');
   const fahrenheit = degree.toUpperCase().includes('F');
 
-  if(!celsiusEcxists && !fahrenheitExists) {
-    
+  if (!celsiusEcxists && !fahrenheitExists) {
   }
 }
