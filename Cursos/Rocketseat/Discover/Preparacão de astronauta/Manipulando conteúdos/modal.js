@@ -3,7 +3,7 @@ const buttoonpenmodal = document.getElementById
 
 const modalwrapper = document.querySelector('modal-wrapper')
 
-buttoonpenmodal.onclick = functson () {
+buttoonpenmodal.onclick = function () {
   modalwrapper
   .classList
   .remove('invisible')
