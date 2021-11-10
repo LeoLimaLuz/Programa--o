@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev.finances</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <img src="../maratona-discover-01-main/assets/logo.svg" alt="Logo dev Finance">
+    </header>
+
+    <main class="container">
+        <section id="balance">     
+            <h2 class="sr-only">Balanço</h2>
+    
+            <div class="card">
+                <h3>
+                    <span>
+                        Entradas
+                    </span>
+                    <img src="../maratona-discover-01-main/assets/income.svg" alt="Image de entrada">
+                </h3>
+                <p>R$ 5.000,00</p>
+            </div>
+            
+            <div class="card">
+             <h3>
+                <span>
+                    Saídas
+                </span>
+                <img src="../maratona-discover-01-main/assets/expense.svg" alt="Image de saídas">
+             </h3>
+             <p>R$ 2.000,00</p>
+            </div>
+    
+         <div class="card total">
+               <h3>
+                <span>
+                    total
+                </span>
+                <img src="../maratona-discover-01-main/assets/total.svg" alt="Image de total">
+               </h3>
+            <p>R$ 3.000,00</p>
+         </div>
+
+        </section>
+
+        <section id="transaction"> 
+            <h2 class="sr-only">Transações</h2>
+
+<a href="#" class="button new">+ Nova Transação</a>
+
+            <table id="data-table">
+                <thead>
+                 <tr>
+                     <th>Descrição</th>
+                     <th>Valor</th>
+                     <th>Data</th>
+                     <th></th>
+                </tr>
+             </thead>
+             <tbody>
+                    <tr>
+                        <td class="description">Luz</td>
+                        <td class="expense">- R$ 500,00</td>
+                        <td class="date">23/01/2021</td>
+                        <td>
+                            <img src="../maratona-discover-01-main/assets/minus.svg" alt="Remover Transação">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="description">Criação website</td>
+                        <td class="income">R$ 5.000,00</td>
+                        <td class="date">23/01/2021</td>
+                        <td>
+                            <img src="../maratona-discover-01-main/assets/minus.svg" alt="Remover Transação">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="description">Internet</td>
+                        <td class="expense">- R$ 200,00</td>
+                        <td class="date">23/01/2021</td>
+                        <td>
+                            <img src="../maratona-discover-01-main/assets/minus.svg" alt="Remover Transação">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+      </main>
+   <footer> <p>dev.finance$</p></footer>  
+</body>
+</html>
