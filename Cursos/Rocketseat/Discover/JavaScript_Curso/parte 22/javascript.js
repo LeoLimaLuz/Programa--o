@@ -21,6 +21,7 @@ function soma(a, b) {
     return soma;
 }
 
+
 var somaUm = soma(2, 5)
 
 console.log(somaUm);
