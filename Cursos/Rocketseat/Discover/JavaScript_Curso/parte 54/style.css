@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  background-image: linear-gradient(to right, #Eg57e63, #340730D);
+  color: #fff;
+  text-aling: center;
+  padding-top: 30px;
+}
+
+#tasks-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* tasks form */
+#tasks-header {
+  margin-top: 40px;
+}
+
+#add-tasks-form {
+  position: relative;
+}
+
+#add-task-form {
+  position: relative;
+}
+
+#add-task-form-input {
+  box-sizing: border-box;
+}
