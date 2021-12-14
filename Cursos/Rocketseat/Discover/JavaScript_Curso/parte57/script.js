@@ -1,0 +1,4 @@
+// sintaxe
+function primeiraFuncao() {
+  return;
+}
